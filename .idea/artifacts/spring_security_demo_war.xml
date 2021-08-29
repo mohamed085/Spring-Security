@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="spring-security-demo-1.0.war">
+    <root id="archive" name="spring-security-demo.war">
       <element id="artifact" artifact-name="spring-security-demo:war exploded" />
     </root>
   </artifact>
