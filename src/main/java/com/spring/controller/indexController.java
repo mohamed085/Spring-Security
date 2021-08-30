@@ -9,9 +9,19 @@ public class indexController {
     @GetMapping("/")
     public String getHome() {
 
-
         return "index";
     }
 
+    @GetMapping("/leaders")
+    public String getLeaders() {
+
+        return "leaders";
+    }
+
+    @GetMapping("/systems")
+    public String getSystems() {
+
+        return "systems";
+    }
 
 }
