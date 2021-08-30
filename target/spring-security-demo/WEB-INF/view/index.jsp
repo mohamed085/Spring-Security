@@ -9,8 +9,8 @@
     <body>
         <h1>Hii my friend it index page</h1>
 
-        <p>User: <security:authentication property="principal.username" /> </p>
-        <p>Role(s): <security:authentication property="principal.authorities" /></p>
+<%--        <p>User: <security:authentication property="principal.username" /> </p>--%>
+<%--        <p>Role(s): <security:authentication property="principal.authorities" /></p>--%>
 
         <form:form action="${pageContext.request.contextPath}/logout"
                    method="POST">
